@@ -1,8 +1,9 @@
-import { sum, product } from "math";
-// import sum from 'math/sum'
-// import {product} from 'math/product'
+import math, { sum, product } from "math";
+// import sum from "math/sum";
+// import product from "math/product";
 
-console.log(sum([1,2,3,4]), product([1,2,3,4]));
+console.log(sum([1, 2, 3, 4]), product([1, 2, 3, 4]));
+console.log(math.sum([1, 2, 3, 4]), math.product([1, 2, 3, 4]));
 
 // const debounce = (fn, timeDelay = 1000) => {
 //   let fnTimer;
