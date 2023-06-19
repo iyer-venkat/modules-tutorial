@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "devStart": "tsnd --respawn --transpile-only --exit-child app.ts"
+    "devStart": "tsnd --respawn --transpile-only --exit-child api.ts"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
