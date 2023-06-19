@@ -13,8 +13,9 @@ use `node --experimental-specifier-resolution=node calculator.js`
 - ESM modules can import CJS modules with `* as` as there is no default
 - with `esModuleInterop` flag set to `true`, the `* as` can be dropped
 
-> Node.js was developed before ESM became the new standard, hence default is CJS
-> for Node to support ESM, we either use `.mjs` or use `"type":"module"`
+> Node.js was developed before ESM became the new standard, hence default is CJS \
+> \
+> For Node to support ESM, we either use `.mjs` or use `"type":"module"`
 
 #
 
