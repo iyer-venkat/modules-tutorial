@@ -2,7 +2,7 @@
 
 use `node --experimental-specifier-resolution=node calculator.js`
 
-> _The `--experimental-specifier-resolution=node` flag is used to help ignoring the file extensions and to default to `index.js` when importing directories. This can be removed in the future._
+> _The `--experimental-specifier-resolution=node` flag is used to help ignoring the file extensions and to default to `index.js` when importing directories._
 
 #
 
